@@ -2,12 +2,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #242730;
+  background-color: #10232c;
   color: white;
 }
 
 h1 {
   text-align: center;
+}
+
+h1 span{
+  color: #26ffcb;
 }
 
 .board {
@@ -96,7 +100,7 @@ h1 {
 
 .game-over {
   text-align: center;
-  border: #5468ff solid 2px;
+  border: #0074a6 solid 2px;
   border-radius: 10px;
   padding: 10px;
   margin-top: 25px;
@@ -118,6 +122,7 @@ h1 {
 
 .reset-button:hover{
   transform: scale(1.1);
-  background: #5468ff;
+  background: #26ffcb;
+  color: black;
   /* color: black; */
 }

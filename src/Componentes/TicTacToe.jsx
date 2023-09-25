@@ -113,7 +113,7 @@ function TicTacToe() {
 
   return (
     <div>
-      <h1>Jogo da Velha</h1>
+      <h1>Jogo da <span className="titleSpan">Velha</span></h1>
       <Board
         playerTurn={playerTurn}
         tiles={tiles}
